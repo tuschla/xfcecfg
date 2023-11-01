@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="15"/>
+        <value type="int" value="4"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="5"/>
+        <value type="int" value="9"/>
+        <value type="int" value="16"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+      </property>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-image" type="string" value="/home/lt/Pictures/3840x2160_winter-forest-aerial-view-spruce-snow.jpg"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="output-name" type="string" value="eDP1"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-icon" type="string" value="xfce-logo-white"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="show-generic-names" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="custom-menu" type="bool" value="false"/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “lord of the pings” active: lord of the pings (51%)"/>
+        <value type="string" value="remmina"/>
+        <value type="string" value="wi-fi network connection “sehr heiße stelle” active: sehr heiße stelle (74%)"/>
+        <value type="string" value="wi-fi network connection “eduroam” active: eduroam (84%)"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="fcitx5 tray window"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="caffeine"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="pa-applet"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="firewall-applet"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="spotify-client"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="Fcitx"/>
+        <value type="string" value="Element1"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="remmina-icon"/>
+        <value type="string" value="Microsoft Teams - Preview1"/>
+        <value type="string" value="caffeine"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="firewall-applet"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="Mailspring1"/>
+      </property>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock"/>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-8" type="string" value="xfce4-mount-plugin"/>
+    <property name="plugin-16" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1023230;chromium.instance106038;chromium.instance106691;chromium.instance122323;chromium.instance135903;chromium.instance14167;chromium.instance15333;chromium.instance17541;chromium.instance17660;chromium.instance17796;chromium.instance1903;chromium.instance194714;chromium.instance21027;chromium.instance23389;chromium.instance2392;chromium.instance26963;chromium.instance285984;chromium.instance29447;chromium.instance309187;chromium.instance310912;chromium.instance338664;chromium.instance358269;chromium.instance37697;chromium.instance404578;chromium.instance431766;chromium.instance436763;chromium.instance45533;chromium.instance460278;chromium.instance49122;chromium.instance502990;chromium.instance53914;chromium.instance54008;chromium.instance56166;chromium.instance577882;chromium.instance58911;chromium.instance6000;chromium.instance606207;chromium.instance6144;chromium.instance6231;chromium.instance628352;chromium.instance636163;chromium.instance63730;chromium.instance63747;chromium.instance64651;chromium.instance659812;chromium.instance67703;chromium.instance68332;chromium.instance690821;chromium.instance697696;chromium.instance75256;chromium.instance7621;chromium.instance7708;chromium.instance77578;chromium.instance8055;chromium.instance8175;chromium.instance90811;chromium.instance93787;chromium.instance9409;chromium.instance95506;chromium.instance97802;firefox.instance1005;firefox.instance1013;firefox.instance1018495;firefox.instance1019;firefox.instance102343;firefox.instance104108;firefox.instance105071;firefox.instance108576;firefox.instance1115;firefox.instance111781;firefox.instance1118;firefox.instance1128;firefox.instance1129;firefox.instance1131;firefox.instance1142;firefox.instance1168;firefox.instance1172;firefox.instance1173;firefox.instance117694;firefox.instance1181;firefox.instance1183;firefox.instance1202;firefox.instance1271528;firefox.instance1289;firefox.instance1336;firefox.instance133787;firefox.instance1349;firefox.instance1366;firefox.instance1376;firefox.instance1382;firefox.instance1389;firefox.instance1409;firefox.instance1423;firefox.instance1434;firefox.instance143877;firefox.instance1443;firefox.instance1452609;firefox.instance1456;firefox.instance1467;firefox.instance1478;firefox.instance1486;firefox.instance1487;firefox.instance1523;firefox.instance153833;firefox.instance154055;firefox.instance1544;firefox.instance1575;firefox.instance1600;firefox.instance16090;firefox.instance1612;firefox.instance1618;firefox.instance1626;firefox.instance1627;firefox.instance1628;firefox.instance1633;firefox.instance1634;firefox.instance1636;firefox.instance1638;firefox.instance1640;firefox.instance1646;firefox.instance1648;firefox.instance1649;firefox.instance1663;firefox.instance1668;firefox.instance1671;firefox.instance1677;firefox.instance169041;firefox.instance1696;firefox.instance16970;firefox.instance1710;firefox.instance1717;firefox.instance1720;firefox.instance1723;firefox.instance1727;firefox.instance1739;firefox.instance1741;firefox.instance1748;firefox.instance1759;firefox.instance1769;firefox.instance1817;firefox.instance1834;firefox.instance183768;firefox.instance1902;firefox.instance191205;firefox.instance197439;firefox.instance203728;firefox.instance205778;firefox.instance2119;firefox.instance223946;firefox.instance23732;firefox.instance2471;firefox.instance248150;firefox.instance25567;firefox.instance257105;firefox.instance25727;firefox.instance25975;firefox.instance267671;firefox.instance269742;firefox.instance29946;firefox.instance33481;firefox.instance3707;firefox.instance372357;firefox.instance38582;firefox.instance386535;firefox.instance42677;firefox.instance435762;firefox.instance503371;firefox.instance560819;firefox.instance576363;firefox.instance58212;firefox.instance584669;firefox.instance60827;firefox.instance632584;firefox.instance645644;firefox.instance65120;firefox.instance654323;firefox.instance70379;firefox.instance71041;firefox.instance747366;firefox.instance78318;firefox.instance79013;firefox.instance805106;firefox.instance88086;firefox.instance89688;firefox.instance89784;firefox.instance94441;firefox.instance953;firefox.instance959;firefox.instance967475;firefox.instance984;firefox.instance986494;firefox.instance990;firefox.instance99115;Gwenview;ncspot;spotify;tdesktop;vlc"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="known-players" type="string" value="Chromium;firefox;Firefox Web Browser;spotify"/>
+    </property>
+    <property name="plugin-15" type="string" value="systemload">
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+    </property>
+  </property>
+</channel>
